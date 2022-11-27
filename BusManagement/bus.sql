@@ -45,7 +45,9 @@ CREATE TABLE `bustable` (
 --
 
 INSERT INTO `bustable` (`BId`, `Name`, `Number`, `Type`, `RId`, `Make`, `Model`, `seats`, `DId`, `CId`) VALUES
-(2, 'jjn', '5455', 'hjbkj', '6554', ',nbn', 'klj', '54', 'jkh', 'dds'), (3, 'sundaratravel', '1313', 'passenger', '4356', ',volvo', '1st model', '30', '899', '788');
+(2, 'jjn', '5455', 'hjbkj', '6554', ',nbn', 'klj', '54', 'jkh', 'dds'), (3, 'sundaratravel', '1313', 'passenger', '4356', ',volvo', '1st model', '30', '899', '788'), 
+(4, 'applebus', '3456', 'corgo', '556', ',ashok leyland', '3rd model', '15', '989', '232'),
+(5, 'samsungbus', 'a1', 'double decker', '43', ',ashok leyland', '2nd model', '70', '5ui', '7899');
 
 -- --------------------------------------------------------
 
@@ -66,7 +68,9 @@ CREATE TABLE `employeetable` (
 
 INSERT INTO `employeetable` (`EId`, `Name`, `Designation`, `BId`) VALUES
 (1, 'dds', 'Conductor', 0),
-(2, 'jkh', 'Driver', 0),(3, '899', 'Driver', 0);
+(2, 'jkh', 'Driver', 0),(3, '899', 'Driver', 0),
+(4, '989', 'conductor', 0),
+(5, '5ui', 'driver', 0);
 
 -- --------------------------------------------------------
 
@@ -103,7 +107,9 @@ CREATE TABLE `routetable` (
 INSERT INTO `routetable` (`Id`, `RId`, `Station_Code`, `Dist_From_Src`, `Arr_Time`, `Depart_Time`) VALUES
 (1, 6554, 'glb33', '520', '2000', '2100'),
 (2, 6554, '556', '44', '44', '54'),
-(3, 4356, 'ict wichita', '78', '89', '4500');
+(3, 4356, 'ict wichita', '78', '89', '4500'),
+(4, 556, 'chg chicago', '75', '90', '2000'),
+(5, 86, 'co colorao', '544', '455', '1800');
 
 -- --------------------------------------------------------
 
@@ -124,7 +130,9 @@ CREATE TABLE `stationtable` (
 INSERT INTO `stationtable` (`Id`, `Scode`, `Station_Name`) VALUES
 (1, 'glb33', 'gulbarga'),
 (2, '556', 'mum'),
-(3, 'ict wichita', 'wichita eisenhower');
+(3, 'ict wichita', 'wichita eisenhower'),
+(4, 'chg chicago', 'chicago international'),
+(5, 'co colorado', 'colorado international');
 
 -- --------------------------------------------------------
 
