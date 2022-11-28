@@ -13,3 +13,10 @@ it is desktop application created using javafx and mysql.
 8) do clean and build 
 9) do run the busManagement.java file. now you will be prompted into the desktop application
 10) the user name is "shahsidhar" and passcode is "raju"
+
+
+group members with theoir github ids:
+shasihar - shashidhar8
+Venkatraju - venkatraju55
+hariprasad - HariPrasad243
+nikhilsaka - Nikhilsaka2053
