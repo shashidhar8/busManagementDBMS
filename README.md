@@ -12,7 +12,7 @@ it is desktop application created using javafx and mysql.
 7) now open the project in netbeans ide . 
 8) do clean and build 
 9) do run the busManagement.java file. now you will be prompted into the desktop application
-10) the user name is "shahsidhar" and passcode is "raju"
+10) the username is "shashidhar" and passcode is "10704303"
 
 
 group members with theoir github ids:
