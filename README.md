@@ -16,7 +16,7 @@ it is desktop application created using javafx and mysql.
 
 
 group members with theoir github ids:
-shasihar - shashidhar8
-Venkatraju - venkatraju55
-hariprasad - HariPrasad243
-nikhilsaka - Nikhilsaka2053
+Shashihar Reddy Mentla - shashidhar8
+Venkat Raju Jadala - venkatraju55
+Hari Prasad Rayala- HariPrasad243
+Nikhil Saka - Nikhilsaka2053
